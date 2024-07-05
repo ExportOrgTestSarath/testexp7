@@ -1,1 +1,1 @@
-{"Application User":[],"Ntab":[{"persistenceType":"ANALYTICAL","roles":["all"],"name":"Ntab export 1","filters":{},"fields":[{"name":"Sid","allowEdit":false}],"batchSize":0,"notifyMail":false,"sid":"762cddcf-9aff-4a05-af9c-b78577b72996","fileTypes":["csv"]}]}
+{"Application User":[],"Ntab":[{"persistenceType":"ANALYTICAL","roles":["all"],"name":"Ntab export 1","filters":{},"fields":[{"name":"Sid","allowEdit":false}],"batchSize":0,"notifyMail":false,"sid":"762cddcf-9aff-4a05-af9c-b78577b72996","fileTypes":["excel"]}]}
