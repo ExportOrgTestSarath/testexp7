@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "one":"BZrsln7hHt0Xqm4Cr7hCUvXPm",
-                        "two":"XKe9vXdXNoj2zQ5bzpRYA3jPa"
+                        "one":"TKV8A8L87o4Tfi61P05OOVpqP",
+                        "two":"kJn0FLqgVqbupvrg51HrIhzDe"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
