@@ -1,0 +1,47 @@
+{
+	"name": "READ_BY_ID",
+	"description":"Read by id",
+	"inputModelName":"com.vanenburgdemo.exapp.model.Ntab",
+	"outputModelName":"com.vanenburgdemo.exapp.model.Ntab",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/ntabs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"GET_BY_SID",
+			           "method":"GET",
+			           "requestUrl":"/rest/ntabs/{sid}",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             },
+			           "userName":"AppAdmin"		
+	       },
+	"outputData": [{
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "Ntab":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/ntabs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

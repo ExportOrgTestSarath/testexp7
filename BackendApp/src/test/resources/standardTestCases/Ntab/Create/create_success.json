@@ -1,0 +1,37 @@
+{
+	"name": "CREATE_SUCCESS",
+	"description":"Create success",
+	"inputModelName":"com.vanenburgdemo.exapp.model.Ntab",
+	"outputModelName":"com.vanenburgdemo.exapp.model.Ntab",
+	"setUp":[
+	       ],
+	"requestDetails":{
+			           "serviceType":"CREATE",
+			           "inputData":{
+             },
+			           "method":"POST",
+			           "requestUrl":"/rest/ntabs/",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             },
+			           "userName":"AppAdmin",
+			           "fileAttachmentInfo":[ 
+             ],
+			           "lookupConfiguration":{
+             }		
+	       },
+	"outputData": [{
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "Ntab":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/ntabs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

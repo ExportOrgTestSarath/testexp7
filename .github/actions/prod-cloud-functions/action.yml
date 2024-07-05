@@ -1,0 +1,9 @@
+name: prod-cloud-functions
+description: prod-cloud-functions action for the pipeline
+
+runs:
+  using: "composite"
+  steps:
+    - name: Excel export is not configured
+      shell: sh
+      run: echo "Excel export is not configured"

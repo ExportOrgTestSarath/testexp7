@@ -1,0 +1,45 @@
+{
+	"name": "DELETE_BY_ID",
+	"description":"Delete by id",
+	"inputModelName":"",
+	"outputModelName":"",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/ntabs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"DELETE_BY_IDS",
+			           "method":"DELETE",
+			           "requestUrl":"/rest/ntabs/{ids}",
+			           "userName":"AppAdmin"		
+	       },
+	"deleteRecordInfo":[{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             }
+	       ],
+	"outputData": [
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":true,
+	"verificationRequestDetails":{
+			                        "method":"GET",
+			                        "requestUrl":"/rest/ntabs/{sid}",
+			                        "expectedResponseCode":204,
+			                        "userName":"AppAdmin"
+	       }
+}

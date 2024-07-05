@@ -1,0 +1,51 @@
+{
+	"name": "UPDATE_SUCCESS",
+	"description":"Update success",
+	"inputModelName":"com.vanenburgdemo.exapp.model.Ntab",
+	"outputModelName":"com.vanenburgdemo.exapp.model.Ntab",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/ntabs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"UPDATE",
+			           "inputData":{
+             },
+			           "method":"PUT",
+			           "requestUrl":"/rest/ntabs/",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"Ntab"
+             },
+			           "userName":"AppAdmin",
+			           "lookupConfiguration":{
+             }		
+	       },
+	"outputData": [{
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "Ntab":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/ntabs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}
