@@ -15,7 +15,7 @@ export class AppLayoutBaseService {
   
    public titleService = inject(Title)
    public appGlobalService = inject(AppGlobalService);
-  config : any = {"left":[{"outline":false,"infiniteScroll":false,"urlIconFileName":"Company Logo.svg","valueChange":true,"logoFileName":"Company Logo.svg","currentNode":"74e1b698-159e-4c83-a6be-ddbb04850195","mobileLogoFileName":"Company Logo.svg","element":"logo"},{"outline":false,"menuType":"fixed","hideSidebarOnCollapse":false,"element":"leftMenu"},{"outline":false,"element":"appTitle"}],"middle":[{"outline":false,"element":"leftPane"},{"outline":false,"element":"middlePane"},{"outline":false,"element":"rightPane"}],"right":[{"children":[{"outline":false,"link":"/logout","label":"Logout","element":"logout"}],"element":"user"},{"outline":false,"menuType":"float","element":"rightMenu"}]};
+  config : any = {"left":[{"outline":false,"infiniteScroll":false,"urlIconFileName":"Company Logo.svg","valueChange":true,"logoFileName":"Company Logo.svg","currentNode":"74e1b698-159e-4c83-a6be-ddbb04850195","mobileLogoFileName":"Company Logo.svg","element":"logo"},{"outline":false,"menuType":"fixed","hideSidebarOnCollapse":false,"element":"leftMenu"},{"outline":false,"element":"appTitle"}],"middle":[{"outline":false,"element":"leftPane"},{"outline":false,"element":"middlePane"},{"outline":false,"element":"rightPane"}],"right":[{"outline":false,"menuType":"float","element":"rightMenu"},{"children":[{"outline":false,"link":"/logout","label":"Logout","element":"logout"}],"element":"user"}]};
 
   public getLeftMenuVisibility(): Observable<boolean> {
     return this.displayLeftMenu.asObservable();

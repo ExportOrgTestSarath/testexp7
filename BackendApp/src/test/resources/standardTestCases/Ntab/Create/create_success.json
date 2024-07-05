@@ -8,6 +8,8 @@
 	"requestDetails":{
 			           "serviceType":"CREATE",
 			           "inputData":{
+                        "one":"k1L4aRP9zTPTiXDzRKZjjQxJK",
+                        "two":"tmJaAcn53GgoHUFUSyxrm0p7l"
              },
 			           "method":"POST",
 			           "requestUrl":"/rest/ntabs/",
@@ -22,6 +24,8 @@
              }		
 	       },
 	"outputData": [{
+                        "one":"k1L4aRP9zTPTiXDzRKZjjQxJK",
+                        "two":"tmJaAcn53GgoHUFUSyxrm0p7l"
              }
 	       ],
 	"responseCode": 200,

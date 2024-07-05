@@ -1306,61 +1306,6 @@ workflowInformation.step = workflowDataForNewRec.step || '';
     this.backupData = this.appUtilBaseService.deepClone(this.detailFormControls.getRawValue());
   }
 }
-	getDateTimeFields() {
-    return ['createdDate','modifiedDate'];
-  }
-
-  getDateFields() {
-    return [];
-  }
-  
-  
-  getTranslatableFields() {
-    return [];
-  }
-  
-  
-  getEmailFields(){
-  	return [];
-  }
-  
-
-  /**
-  * Ignore fields from displaying in the changelog details
-  */
-  getIgnoreFields() {
-    return ['sid', 'pid'];
-  }
-  
-  
- onChangelog() {
-    const initialState: ModalOptions = {
-      initialState: {
-        class: 'modal-xl',
-        changelogConfig: {
-          dateFields: this.getDateFields(),
-          dateTimeFields: this.getDateTimeFields(),
-          ignoreFields: this.getIgnoreFields(),
-          translatableFields:this.getTranslatableFields(),
-          emailFields:this.getEmailFields(),
-           config :this.formFieldConfig,
-          filters: [{
-            label: 'BASIC_DETAIL'
-          }],
-          entityId : this.data.sid,
-          entityName : 'Ntab',
-          fieldName : null,
-          fromModifiedDate : new Date().getTime(),
-          useModifiedDate: true,
-          translations: {}
-        },
-        keyboard: true
-        
-      }
-    };
-    this.bsModalRef = this.bsModalService.show(ChangeLogsComponent, Object.assign(initialState, { class: 'modal-xl modal-changelog' }));
-    this.bsModalRef.content.closeBtnName = 'Close';
-  }
 	formatCaptionItems(config: any, data: any) {
     if (Object.keys(data).length > 0) {
       return (this.appUtilBaseService.formatRawDatatoRedableFormat(config, data[config.field]));
@@ -1574,6 +1519,61 @@ step:workflowInfo.step
         this.detailFormControls.get(this.formFieldConfig[ele].fieldName)?.enable({ emitEvent: false });
       }
     }
+  }
+	getDateTimeFields() {
+    return ['createdDate','modifiedDate','syncTime'];
+  }
+
+  getDateFields() {
+    return [];
+  }
+  
+  
+  getTranslatableFields() {
+    return [];
+  }
+  
+  
+  getEmailFields(){
+  	return [];
+  }
+  
+
+  /**
+  * Ignore fields from displaying in the changelog details
+  */
+  getIgnoreFields() {
+    return ['sid', 'pid'];
+  }
+  
+  
+ onChangelog() {
+    const initialState: ModalOptions = {
+      initialState: {
+        class: 'modal-xl',
+        changelogConfig: {
+          dateFields: this.getDateFields(),
+          dateTimeFields: this.getDateTimeFields(),
+          ignoreFields: this.getIgnoreFields(),
+          translatableFields:this.getTranslatableFields(),
+          emailFields:this.getEmailFields(),
+           config :this.formFieldConfig,
+          filters: [{
+            label: 'BASIC_DETAIL'
+          }],
+          entityId : this.data.sid,
+          entityName : 'Ntab',
+          fieldName : null,
+          fromModifiedDate : new Date().getTime(),
+          useModifiedDate: true,
+          translations: {}
+        },
+        keyboard: true
+        
+      }
+    };
+    this.bsModalRef = this.bsModalService.show(ChangeLogsComponent, Object.assign(initialState, { class: 'modal-xl modal-changelog' }));
+    this.bsModalRef.content.closeBtnName = 'Close';
   }
 	openWorkflowSimilator() {
     const ref = this.dialogService.open(WorkflowSimulatorComponent, {

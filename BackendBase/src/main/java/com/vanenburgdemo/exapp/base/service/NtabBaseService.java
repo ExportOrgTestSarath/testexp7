@@ -37,6 +37,8 @@ import org.apache.commons.lang3.StringUtils;
 import com.vanenburgdemo.exapp.base.model.NtabBase;
 import java.util.List;
 
+import com.vs.rappit.base.dal.providers.AnalyticalOptions;
+
 import com.vs.rappit.base.dal.providers.DBOptions;
 
 import com.vs.rappit.base.dal.providers.DeleteOptions;
@@ -73,11 +75,13 @@ public class NtabBaseService<T extends NtabBase> extends BaseBusinessLogic<T>
 		super(modelClass);
 		addPersistenceOption(DBOptions.DELETE_OPTION, DeleteOptions.MARK_AS_DELETE);
 		addPersistenceOption(SearchOptions.SEARCH_INDEX_NAME, getTableName());
+		addPersistenceOption(AnalyticalOptions.GROUP_NAME, "app_default_tables");
+		registerModelTransformer(PersistenceType.ANALYTICAL, new NtabAnalyticalTransformer());
 	}
 
 	@Override
 	public PersistenceType[] getOtherPersistenceTypes() {
-		return new PersistenceType[] {PersistenceType.SEARCH};
+		return new PersistenceType[] {PersistenceType.ANALYTICAL, PersistenceType.SEARCH};
 	}
 	@Override
 	public final void onBeforeSave(PersistenceType type, T modelObj) {
@@ -85,7 +89,10 @@ public class NtabBaseService<T extends NtabBase> extends BaseBusinessLogic<T>
 			case DB:
 				onBeforeSaveDB(modelObj);
 				break;
-						case SEARCH:
+						case ANALYTICAL:
+				onBeforeSaveAnalytical(modelObj);
+				break;
+			case SEARCH:
 				onBeforeSaveSearch(modelObj);
 				break;
 			default:
@@ -204,7 +211,8 @@ public class NtabBaseService<T extends NtabBase> extends BaseBusinessLogic<T>
 	public void onAfterGeneratedValidation(List<ValidationError> validationErrors) {
 		// TODO Auto-generated method stub
 	}
-		public void onBeforeSaveSearch(T modelObj) {}
+		public void onBeforeSaveAnalytical(T modelObj) {}
+	public void onBeforeSaveSearch(T modelObj) {}
 	
 	public void setChangelogService(ChangelogBLBaseImpl changelogService) {
 		this.changelogService=changelogService;

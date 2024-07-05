@@ -16,6 +16,39 @@
       "url" : "/applicationuser/applicationuserlist"
     },
     "element" : "menuItem"
+  }, {
+    "customUrl" : "/exports/exportspage",
+    "accessControl" : [ "all" ],
+    "onClick" : "navigate_to_url",
+    "outline" : false,
+    "valueChange" : true,
+    "currentNode" : "export-menu",
+    "icon" : {
+      "type" : "icon",
+      "icon" : {
+        "label" : "fas fa-upload",
+        "value" : "fas fa-upload"
+      },
+      "iconColor" : "#000000",
+      "iconSize" : "18px"
+    },
+    "label" : "EXPORTS",
+    "element" : "menuItem"
+  }, {
+    "pathsInvolved" : [ "/ntab/ntablist", "/ntab/ntabdetail" ],
+    "accessControl" : [ "all" ],
+    "onClick" : "navigate_to_page",
+    "outline" : false,
+    "infiniteScroll" : false,
+    "valueChange" : true,
+    "currentNode" : "5593af9d-425d-4f37-a5ae-563de00db563",
+    "label" : "EXP",
+    "page" : {
+      "sid" : "0e67f4aa-dd55-4f41-b420-e256d9a5cb24",
+      "name" : "Ntab List",
+      "url" : "/ntab/ntablist"
+    },
+    "element" : "menuItem"
   } ],
   "topBarLeft" : [ ],
   "topBarMiddle" : [ ],

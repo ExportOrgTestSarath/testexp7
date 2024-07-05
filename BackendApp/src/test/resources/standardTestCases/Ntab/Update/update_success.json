@@ -7,6 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
+                        "one":"ZmZu1wbRUgzv1yuMK7dMnflQR",
+                        "two":"UCWkA1wF2rcxUqYYOLvoYSAVQ"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -24,6 +26,8 @@
 	"requestDetails":{
 			           "serviceType":"UPDATE",
 			           "inputData":{
+                        "two":"ujyhrUKPOoICHIjS2pd9qZP9H",
+                        "one":"SinApwDXI8KZBGHDirh8HJ6y5"
              },
 			           "method":"PUT",
 			           "requestUrl":"/rest/ntabs/",
@@ -36,6 +40,8 @@
              }		
 	       },
 	"outputData": [{
+                        "two":"ujyhrUKPOoICHIjS2pd9qZP9H",
+                        "one":"SinApwDXI8KZBGHDirh8HJ6y5"
              }
 	       ],
 	"responseCode": 200,

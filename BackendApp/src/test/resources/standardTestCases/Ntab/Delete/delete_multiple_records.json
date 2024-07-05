@@ -7,6 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
+                        "one":"rnErrPjNOaPCYGajR2leKH26G",
+                        "two":"aQG7WDslDCzNh0m7dWayPkhyc"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -22,6 +24,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"kveKlOb0azkApNm7XzEkUvgNk",
+                        "two":"7ZQzCJnXCE0JZeGXQLo1tSvO3"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -37,6 +41,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"Nzuh7jtKfTeOBWk16n4UkMqtk",
+                        "two":"PvwVVMn1eLCECdHr6BNEN9p7c"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -52,6 +58,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"VeHqKc28xAKGWRbLF9c1brJLj",
+                        "two":"2LKiRhDKDC39HgyV36bcuzAFl"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -67,6 +75,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"GocrozXfCwOYU2iySKzHIeiE2",
+                        "two":"XvsnZBN15MFadYEKXszAjiltj"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",

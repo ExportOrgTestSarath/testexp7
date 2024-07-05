@@ -150,7 +150,7 @@ public abstract class NtabPerimeterBaseImpl<T extends NtabBase> implements IPeri
 			return;
 		}
 					if (BooleanUtils.isTrue(userBase.isAppAdmin())) {
-			String[] readFields = new String[] {SID, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE};
+			String[] readFields = new String[] {SID, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE, ONE, TWO, SYNC_TIME};
 			allowedAccessFields.addAll(Arrays.asList(readFields));
 		}
 
@@ -166,7 +166,7 @@ public abstract class NtabPerimeterBaseImpl<T extends NtabBase> implements IPeri
 			return;
 		}
 					if (BooleanUtils.isTrue(userBase.isAppAdmin())) {
-			String[] readFields = new String[] {SID, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE};
+			String[] readFields = new String[] {SID, CREATED_BY, CREATED_DATE, MODIFIED_BY, MODIFIED_DATE, ONE, TWO, SYNC_TIME};
 			allowedAccessFields.addAll(Arrays.asList(readFields));
 		}
 

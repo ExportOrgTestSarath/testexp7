@@ -7,6 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
+                        "one":"xCa3erxeOGZEIuj1vurTBreTZ",
+                        "two":"DIyRYRvhrLH0OaB6U3LuTCngR"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -22,6 +24,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"ztBcE7cWTqwN9RyrlmBZSE4cH",
+                        "two":"5xElzape6J6GxFpQdX9KvwYDu"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -37,6 +41,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"zIIsmJzHV0xZBYXdYVrcT2hhS",
+                        "two":"1duhYEY9YOARPXfnrqHeZINZw"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -52,6 +58,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"vM1w3RDh2kuRxBIwIuhROqGd6",
+                        "two":"wdB3PYmeLlFF7soQcQ2yk1vtg"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -67,6 +75,8 @@
 		     },
 			   {
 				            "inputData":{
+                        "one":"BdPkxOJNDcnbhRkX4yWVJUzlR",
+                        "two":"TdTavqQqWD0XX67mpYCF0yK4G"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -88,7 +98,17 @@
                         "length":5,
                         "search":{
              },
-                        "columns":[ 
+                        "columns":[ {
+                        "data":"one",
+                        "name":"one",
+                        "orderable":true,
+                        "searchable":true
+             },{
+                        "data":"two",
+                        "name":"two",
+                        "orderable":true,
+                        "searchable":true
+             }
              ],
                         "order":[ {
                         "column":"createdDate",
@@ -101,10 +121,20 @@
 			           "userName":"AppAdmin"		
 	       },
 	"outputData": [{
+                        "two":"DIyRYRvhrLH0OaB6U3LuTCngR",
+                        "one":"xCa3erxeOGZEIuj1vurTBreTZ"
              },{
+                        "two":"5xElzape6J6GxFpQdX9KvwYDu",
+                        "one":"ztBcE7cWTqwN9RyrlmBZSE4cH"
              },{
+                        "two":"1duhYEY9YOARPXfnrqHeZINZw",
+                        "one":"zIIsmJzHV0xZBYXdYVrcT2hhS"
              },{
+                        "two":"wdB3PYmeLlFF7soQcQ2yk1vtg",
+                        "one":"vM1w3RDh2kuRxBIwIuhROqGd6"
              },{
+                        "two":"TdTavqQqWD0XX67mpYCF0yK4G",
+                        "one":"BdPkxOJNDcnbhRkX4yWVJUzlR"
              }
 	       ],
 	"responseCode": 200,

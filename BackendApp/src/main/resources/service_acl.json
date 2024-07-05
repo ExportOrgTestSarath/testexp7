@@ -55,13 +55,6 @@
       ]
     }
   },
-  "environmentinfo": {
-    "get": {
-      "/": [
-        "PermitAll"
-      ]
-    }
-  },
   "workflowconfig": {
     "get": {
       "/getconfig/{workflowType}": [
@@ -107,6 +100,60 @@
       ]
     }
   },
+  "otp": {
+    "post": {
+      "/validateotp/{otp}": [
+        "PermitAll"
+      ],
+      "/generateandsendotp": [
+        "PermitAll"
+      ],
+      "/forgotpasswordotp": [
+        "PermitAll"
+      ]
+    }
+  },
+  "usernotificationsyncinfo": {
+    "put": {
+      "/updatesynctime": [
+        "PermitAll"
+      ]
+    }
+  },
+  "rappitexports": {
+    "post": {
+      "/datatable": [
+        "PermitAll"
+      ],
+      "/": [
+        "PermitAll"
+      ]
+    },
+    "get": {
+      "/download/{export_id}": [
+        "PermitAll"
+      ]
+    },
+    "put": {
+      "/": [
+        "PermitAll"
+      ]
+    }
+  },
+  "deploy": {
+    "post": {
+      "/setup": [
+        "App Admin"
+      ]
+    }
+  },
+  "environmentinfo": {
+    "get": {
+      "/": [
+        "PermitAll"
+      ]
+    }
+  },
   "applicationusers": {
     "post": {
       "/datatable": [
@@ -145,23 +192,13 @@
     },
     "options": {}
   },
-  "otp": {
+  "rappitexporttemplates": {
     "post": {
-      "/validateotp/{otp}": [
+      "/attachmentidbytype": [
         "PermitAll"
       ],
-      "/generateandsendotp": [
-        "PermitAll"
-      ],
-      "/forgotpasswordotp": [
-        "PermitAll"
-      ]
-    }
-  },
-  "usernotificationsyncinfo": {
-    "put": {
-      "/updatesynctime": [
-        "PermitAll"
+      "/setup": [
+        "App Admin"
       ]
     }
   },
@@ -169,13 +206,6 @@
     "post": {
       "/notifications/datatable": [
         "PermitAll"
-      ]
-    }
-  },
-  "deploy": {
-    "post": {
-      "/setup": [
-        "App Admin"
       ]
     }
   }
