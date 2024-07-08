@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "one":"XOVtOiiViavcvbjP6NnKOGmN2",
-                        "two":"cjK6INxrCtT9Ikk4GaF2866ns"
+                        "one":"JoKF08jRP7ePw39Q4aqvzmpyM",
+                        "two":"TYB9OfhVAbRd8oFDHMEaeQlYT"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -34,8 +34,8 @@
 			           "userName":"AppAdmin"		
 	       },
 	"outputData": [{
-                        "one":"XOVtOiiViavcvbjP6NnKOGmN2",
-                        "two":"cjK6INxrCtT9Ikk4GaF2866ns"
+                        "one":"JoKF08jRP7ePw39Q4aqvzmpyM",
+                        "two":"TYB9OfhVAbRd8oFDHMEaeQlYT"
              }
 	       ],
 	"responseCode": 200,

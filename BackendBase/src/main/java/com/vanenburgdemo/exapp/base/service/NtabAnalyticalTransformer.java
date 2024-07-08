@@ -12,7 +12,8 @@ public class NtabAnalyticalTransformer<T extends NtabBase, M extends NtabAnalyti
 	@Override
 	public M writeTo(T model) {
 		NtabAnalyticalBase ntabAnalyticalBase = new NtabAnalyticalBase();
-		
+			ntabAnalyticalBase.setOne(model.getOne());
+	ntabAnalyticalBase.setTwo(model.getTwo());
 		ntabAnalyticalBase.setSid(model.getSid());
 		return (M) ntabAnalyticalBase;
 	}
