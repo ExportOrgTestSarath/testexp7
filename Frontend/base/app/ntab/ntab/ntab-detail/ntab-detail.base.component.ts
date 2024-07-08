@@ -210,7 +210,31 @@ confirmationReference:any;
   "type" : "workflowActionBar"
 }
 	detailCaptionBarConfig : any = {
-  "children" : [ ],
+  "children" : [ {
+    "multipleValues" : false,
+    "fieldName" : "one",
+    "data" : "one",
+    "field" : "one",
+    "name" : "one",
+    "uiType" : "text",
+    "isPrimaryKey" : false,
+    "label" : "ONE",
+    "type" : "captionItem",
+    "fieldType" : "string",
+    "fieldId" : "one"
+  }, {
+    "multipleValues" : false,
+    "fieldName" : "two",
+    "data" : "two",
+    "field" : "two",
+    "name" : "two",
+    "uiType" : "text",
+    "isPrimaryKey" : false,
+    "label" : "TWO",
+    "type" : "captionItem",
+    "fieldType" : "string",
+    "fieldId" : "two"
+  } ],
   "type" : "captionBar"
 }
 	detailFormStructureConfig : any = {
@@ -218,7 +242,39 @@ confirmationReference:any;
 }
 	detailFormConfig : any = {
   "outline" : false,
-  "children" : [ ],
+  "children" : [ {
+    "allowEditing" : "yes",
+    "multipleValues" : false,
+    "fieldName" : "one",
+    "data" : "one",
+    "isPrimaryKey" : false,
+    "label" : "ONE",
+    "type" : "formField",
+    "mandatory" : "no",
+    "field" : "one",
+    "transient" : false,
+    "uiType" : "text",
+    "name" : "one",
+    "fieldType" : "string",
+    "allowViewing" : "yes",
+    "fieldId" : "one"
+  }, {
+    "allowEditing" : "yes",
+    "multipleValues" : false,
+    "fieldName" : "two",
+    "data" : "two",
+    "isPrimaryKey" : false,
+    "label" : "TWO",
+    "type" : "formField",
+    "mandatory" : "no",
+    "field" : "two",
+    "transient" : false,
+    "uiType" : "text",
+    "name" : "two",
+    "fieldType" : "string",
+    "allowViewing" : "yes",
+    "fieldId" : "two"
+  } ],
   "columns" : "2",
   "type" : "form",
   "actions" : {
@@ -270,6 +326,8 @@ public uploaderService = inject(UploaderService);
 public location = inject(Location);
 
 		detailFormControls : UntypedFormGroup = new UntypedFormGroup({
+	one: new UntypedFormControl('',[]),
+	two: new UntypedFormControl('',[]),
 });
 
 

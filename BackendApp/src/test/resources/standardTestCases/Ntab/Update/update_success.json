@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "one":"GETdiD2G1RGDtckAlFJgMrv9H",
-                        "two":"fdXcfzzKmN3Pp9RwXH4gSFS7m"
+                        "one":"vjsf4fTFvoaSSIxhgariurBVj",
+                        "two":"sAawHjgO8oDV5qGz60kKNOdRx"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/ntabs/",
@@ -26,8 +26,8 @@
 	"requestDetails":{
 			           "serviceType":"UPDATE",
 			           "inputData":{
-                        "two":"DtiK6PQw3BBJVdxsIpb7cIlzt",
-                        "one":"StJKL1R2hfSfBrEJXLpuCQDj4"
+                        "two":"495xSvYcDVlhntLfC0pAcr1ET",
+                        "one":"Iky7pNtHbTBemq58TnjJRBHop"
              },
 			           "method":"PUT",
 			           "requestUrl":"/rest/ntabs/",
@@ -40,8 +40,8 @@
              }		
 	       },
 	"outputData": [{
-                        "two":"DtiK6PQw3BBJVdxsIpb7cIlzt",
-                        "one":"StJKL1R2hfSfBrEJXLpuCQDj4"
+                        "two":"495xSvYcDVlhntLfC0pAcr1ET",
+                        "one":"Iky7pNtHbTBemq58TnjJRBHop"
              }
 	       ],
 	"responseCode": 200,

@@ -44,7 +44,23 @@
             <form class="ev-form " [formGroup]="detailFormControls" #detailForm [ngClass]="{'read-only-fields':enableReadOnly}">
                 <div class="row form-body">
                     <div class="form-row vg-col-2">
-                        
+                        <div class="form-col" [hidden]="hiddenFields.one" id="one">
+    <div class="field-row"  [ngClass]="{'required': formFieldConfig?.one?.isRequired, 'error':inValidFields.one}">
+        <label for="one" class="col-form-label one-label" [textContent]=" 'ONE'|translate "></label>
+        <span class="info-bubble" *ngIf="formFieldConfig?.one?.infoBubble"   [pTooltip]="formFieldConfig?.one?.infoBubble || ''"><i class="fa fa-circle-info"></i></span>
+        <input type="text" pInputText class="form-control" formControlName="one" [placeholder]="formFieldConfig?.one?.placeHolder || ''"
+[maxlength]="formFieldConfig?.one?.maxLength" />
+        <div class="fst-italic fs-5 help-text">{{formFieldConfig?.one?.helpText || ''}}</div>
+    </div>
+</div><div class="form-col" [hidden]="hiddenFields.two" id="two">
+    <div class="field-row"  [ngClass]="{'required': formFieldConfig?.two?.isRequired, 'error':inValidFields.two}">
+        <label for="two" class="col-form-label two-label" [textContent]=" 'TWO'|translate "></label>
+        <span class="info-bubble" *ngIf="formFieldConfig?.two?.infoBubble"   [pTooltip]="formFieldConfig?.two?.infoBubble || ''"><i class="fa fa-circle-info"></i></span>
+        <input type="text" pInputText class="form-control" formControlName="two" [placeholder]="formFieldConfig?.two?.placeHolder || ''"
+[maxlength]="formFieldConfig?.two?.maxLength" />
+        <div class="fst-italic fs-5 help-text">{{formFieldConfig?.two?.helpText || ''}}</div>
+    </div>
+</div>
                     </div>
                 </div>
         </form>
