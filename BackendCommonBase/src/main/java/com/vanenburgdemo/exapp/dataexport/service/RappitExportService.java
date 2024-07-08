@@ -19,7 +19,7 @@ public class RappitExportService extends RappitExportBaseService<RappitExport>
 			
 	@Override
 	public void onBeforeSaveDB(RappitExport modelObj) {
-		modelObj.setQuery("select * from ExportMay21.State");
+		modelObj.setQuery("select * from BQTest.yup");
 		super.onBeforeSaveDB(modelObj);
 	}
 }
