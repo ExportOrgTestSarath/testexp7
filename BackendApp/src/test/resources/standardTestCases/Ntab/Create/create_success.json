@@ -8,8 +8,8 @@
 	"requestDetails":{
 			           "serviceType":"CREATE",
 			           "inputData":{
-                        "one":"CSiwjaPaVohwAnJuXKTvmG5R9",
-                        "two":"9bycNTQNjuStvtgPjrglRioFe"
+                        "one":"lmw5Lpx9d5d2SR8OACgS6TyfL",
+                        "two":"luD1TvR35AByUEyb2hITGBVmw"
              },
 			           "method":"POST",
 			           "requestUrl":"/rest/ntabs/",
@@ -24,8 +24,8 @@
              }		
 	       },
 	"outputData": [{
-                        "one":"CSiwjaPaVohwAnJuXKTvmG5R9",
-                        "two":"9bycNTQNjuStvtgPjrglRioFe"
+                        "one":"lmw5Lpx9d5d2SR8OACgS6TyfL",
+                        "two":"luD1TvR35AByUEyb2hITGBVmw"
              }
 	       ],
 	"responseCode": 200,
