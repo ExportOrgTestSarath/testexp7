@@ -58,6 +58,9 @@ public class RappitExportPerimeterBaseImpl<T extends RappitExportBase> implement
 						case "Ntab export 1":
 			return true;
 
+			case "Ntab export 2":
+			return true;
+
 		}
 		return false;
 	}
