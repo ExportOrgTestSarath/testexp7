@@ -24,7 +24,7 @@ import com.opencsv.exceptions.CsvValidationException;
 public class CSVToExcelConvertor {
 	
 	private static final int MAX_ROWS_PER_SHEET = 1048576; // Excel's maximum row limit
-	private static final int BATCH_SIZE = 100000; // Process 10,000 records per batch
+	private static final int BATCH_SIZE = 20000; // Process 10,000 records per batch
 	private static final String SHEET_1 = "Sheet1";
 	
 	@Bean
