@@ -17,6 +17,10 @@ export const routes: Routes = [
     resolve:{authResolver:AuthenticationResolver},
     children: [
     {
+    	path:'exports',
+        loadChildren:() =>import('@app/exports/exports.module').then(m=>m.ExportsModule)
+    },
+    {
     path: 'home',
     component: AppHomePageComponent,
     },
