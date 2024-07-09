@@ -20,7 +20,6 @@ import { AppConstants } from '@app/app-constants';
 import { AppGlobalService } from '@baseapp/app-global.service';
 import { GridComponent } from '@libsrc/grid/grid.component';
 import { Location } from '@angular/common';
-import { ExportPageComponent } from '@app/exports/export-page/export-page.component';
 
 @Directive(
 {
@@ -107,8 +106,6 @@ tableSearchFieldConfig:any = {};
   @ViewChild('menu')
   menu!: ElementRef;
  filtersApplied:boolean = false;
-	displayExport: boolean = false;
-exportTableName: string ="Ntab";
 
 	
 	leftActionBarConfig : any = {
@@ -203,28 +200,6 @@ exportTableName: string ="Ntab";
     "cancelButtonText" : "no"
   }, {
     "outline" : false,
-    "children" : [ {
-      "visibility" : "show",
-      "buttonStyle" : "curved",
-      "icon" : {
-        "type" : "icon",
-        "icon" : {
-          "label" : "fa fa-upload",
-          "value" : "fa fa-upload"
-        },
-        "iconColor" : "#000000",
-        "iconSize" : "13px"
-      },
-      "label" : "EXPORT",
-      "type" : "button",
-      "outline" : false,
-      "buttonType" : "icon_on_left",
-      "showOn" : "both",
-      "enableOnlyIfRecordSelected" : false,
-      "buttonId" : "Export_button_0",
-      "buttonEnabled" : "yes",
-      "action" : "export"
-    } ],
     "displayCount" : "0",
     "label" : "IMPORT_EXPORT_BUTTON_GROUP",
     "type" : "buttonGroup"
@@ -636,16 +611,6 @@ focus(){
   this.onRefresh();
   this.filtersApplied = false;
 }
-	onExport(){
-this.displayExport= true;
-    }
-onExportPopupClose(){
-      this.displayExport=false;
-    }
-onExportSucess() {
-    this.displayExport = false;
-    this.onRefresh();
-  }
 	onRefresh(fromDelete?:boolean): void {
     const fromDel = fromDelete || false;
     const params = this.assignTableParams();
