@@ -1,0 +1,51 @@
+{
+	"name": "READ_BY_ID",
+	"description":"Read by id",
+	"inputModelName":"com.vanenburgdemo.exapp.model.TableOneConfg",
+	"outputModelName":"com.vanenburgdemo.exapp.model.TableOneConfg",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+                        "value2":"fMINDn8zWdU7skjYUkei6U1gJ",
+                        "value1":"HBTam6cAocNVnL6yOmXnV0ZNk"
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/tableoneconfgs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableOneConfg"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"GET_BY_SID",
+			           "method":"GET",
+			           "requestUrl":"/rest/tableoneconfgs/{sid}",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableOneConfg"
+             },
+			           "userName":"AppAdmin"		
+	       },
+	"outputData": [{
+                        "value2":"fMINDn8zWdU7skjYUkei6U1gJ",
+                        "value1":"HBTam6cAocNVnL6yOmXnV0ZNk"
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "TableOneConfg":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/tableoneconfgs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

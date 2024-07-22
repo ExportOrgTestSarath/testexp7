@@ -1,0 +1,59 @@
+{
+	"name": "CREATE_UNIQUE_VALUE_FAILURE",
+	"description":"Create unique value failure",
+	"inputModelName":"com.vanenburgdemo.exapp.model.TableTwoConfig",
+	"outputModelName":"",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+                        "tribber":"cutTJHYN3FoIXR5SP0ky6TRzo",
+                        "embed":"A89A6vMfETAaBa3X9Ry9KAh6j"
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/tabletwoconfigs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"CREATE",
+			           "inputData":{
+                        "tribber":"zafeVwFVEjsvVf9WighI7YhL3",
+                        "embed":"A89A6vMfETAaBa3X9Ry9KAh6j"
+             },
+			           "method":"POST",
+			           "requestUrl":"/rest/tabletwoconfigs/",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             },
+			           "userName":"AppAdmin",
+			           "fileAttachmentInfo":[ 
+             ],
+			           "lookupConfiguration":{
+             }		
+	       },
+	"responseCode": 400,
+	"errorMessage":{
+                     "STATUS_CODE":500,
+                     "ERROR_CODE":"ALREADY_EXISTS",
+                     "MESSAGE":"ALREADY_EXISTS"
+           },
+	"verifyUsingService":false,
+	"tearDown":{
+			     "TableTwoConfig":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/tabletwoconfigs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

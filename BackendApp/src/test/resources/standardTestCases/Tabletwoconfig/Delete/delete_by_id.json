@@ -1,0 +1,47 @@
+{
+	"name": "DELETE_BY_ID",
+	"description":"Delete by id",
+	"inputModelName":"",
+	"outputModelName":"",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+                        "tribber":"2peGPMxrPcO24afoHh4Co615D",
+                        "embed":"qToFfwCXtKlfBrSz8FSVM4y3O"
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/tabletwoconfigs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"DELETE_BY_IDS",
+			           "method":"DELETE",
+			           "requestUrl":"/rest/tabletwoconfigs/{ids}",
+			           "userName":"AppAdmin"		
+	       },
+	"deleteRecordInfo":[{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             }
+	       ],
+	"outputData": [
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":true,
+	"verificationRequestDetails":{
+			                        "method":"GET",
+			                        "requestUrl":"/rest/tabletwoconfigs/{sid}",
+			                        "expectedResponseCode":204,
+			                        "userName":"AppAdmin"
+	       }
+}

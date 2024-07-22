@@ -4,6 +4,8 @@
 	<test thread-count="1" name="Testtestexp7">
 	<packages>
 			<package name="com.vanenburgdemo.exapp.apitest.Ntab"></package>
+			<package name="com.vanenburgdemo.exapp.apitest.TableOneConfg"></package>
+			<package name="com.vanenburgdemo.exapp.apitest.TableTwoConfig"></package>
 		</packages>
 	</test>
 </suite> 

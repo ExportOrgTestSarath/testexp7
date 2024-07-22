@@ -1,0 +1,51 @@
+{
+	"name": "READ_BY_ID",
+	"description":"Read by id",
+	"inputModelName":"com.vanenburgdemo.exapp.model.TableTwoConfig",
+	"outputModelName":"com.vanenburgdemo.exapp.model.TableTwoConfig",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+                        "tribber":"XgzYRVhIhdVzPZkTwzZavS5CK",
+                        "embed":"0NSRlbDuKwfod1oGO8dguDEO8"
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/tabletwoconfigs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"GET_BY_SID",
+			           "method":"GET",
+			           "requestUrl":"/rest/tabletwoconfigs/{sid}",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             },
+			           "userName":"AppAdmin"		
+	       },
+	"outputData": [{
+                        "tribber":"XgzYRVhIhdVzPZkTwzZavS5CK",
+                        "embed":"0NSRlbDuKwfod1oGO8dguDEO8"
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "TableTwoConfig":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/tabletwoconfigs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

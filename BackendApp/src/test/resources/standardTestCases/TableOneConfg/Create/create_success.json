@@ -1,0 +1,41 @@
+{
+	"name": "CREATE_SUCCESS",
+	"description":"Create success",
+	"inputModelName":"com.vanenburgdemo.exapp.model.TableOneConfg",
+	"outputModelName":"com.vanenburgdemo.exapp.model.TableOneConfg",
+	"setUp":[
+	       ],
+	"requestDetails":{
+			           "serviceType":"CREATE",
+			           "inputData":{
+                        "value2":"4osTTqslZFndjcVegMZUZ4Kmm",
+                        "value1":"JWsthW5sMvaRPwKFhukuerg64"
+             },
+			           "method":"POST",
+			           "requestUrl":"/rest/tableoneconfgs/",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableOneConfg"
+             },
+			           "userName":"AppAdmin",
+			           "fileAttachmentInfo":[ 
+             ],
+			           "lookupConfiguration":{
+             }		
+	       },
+	"outputData": [{
+                        "value2":"4osTTqslZFndjcVegMZUZ4Kmm",
+                        "value1":"JWsthW5sMvaRPwKFhukuerg64"
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "TableOneConfg":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/tableoneconfgs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

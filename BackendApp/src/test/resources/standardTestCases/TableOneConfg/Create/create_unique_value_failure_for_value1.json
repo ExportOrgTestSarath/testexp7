@@ -1,0 +1,59 @@
+{
+	"name": "CREATE_UNIQUE_VALUE_FAILURE",
+	"description":"Create unique value failure",
+	"inputModelName":"com.vanenburgdemo.exapp.model.TableOneConfg",
+	"outputModelName":"",
+	"setUp":[
+			   {
+				            "serviceType":"CREATE",
+				            "inputData":{
+                        "value2":"5s9O40oj7aldo25sT6ksRkwpl",
+                        "value1":"ejly8NnKwVcZONedvLtzEh7q2"
+             },
+				            "method":"POST",
+				            "requestUrl":"/rest/tableoneconfgs/",
+				            "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableOneConfg"
+             },
+				            "userName":"AppAdmin",
+				            "fileAttachmentInfo":[ 
+             ],
+				            "lookupConfiguration":{
+             }
+		     }
+	       ],
+	"requestDetails":{
+			           "serviceType":"CREATE",
+			           "inputData":{
+                        "value2":"PlgGaUlCBPAURc2npfLs0PC7o",
+                        "value1":"ejly8NnKwVcZONedvLtzEh7q2"
+             },
+			           "method":"POST",
+			           "requestUrl":"/rest/tableoneconfgs/",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableOneConfg"
+             },
+			           "userName":"AppAdmin",
+			           "fileAttachmentInfo":[ 
+             ],
+			           "lookupConfiguration":{
+             }		
+	       },
+	"responseCode": 400,
+	"errorMessage":{
+                     "STATUS_CODE":500,
+                     "ERROR_CODE":"ALREADY_EXISTS",
+                     "MESSAGE":"ALREADY_EXISTS"
+           },
+	"verifyUsingService":false,
+	"tearDown":{
+			     "TableOneConfg":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/tableoneconfgs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}

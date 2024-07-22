@@ -1,0 +1,41 @@
+{
+	"name": "CREATE_SUCCESS",
+	"description":"Create success",
+	"inputModelName":"com.vanenburgdemo.exapp.model.TableTwoConfig",
+	"outputModelName":"com.vanenburgdemo.exapp.model.TableTwoConfig",
+	"setUp":[
+	       ],
+	"requestDetails":{
+			           "serviceType":"CREATE",
+			           "inputData":{
+                        "tribber":"M0lWRGtH5DLiZtT7ieIVL9QxQ",
+                        "embed":"FJOmwagSZTJHLVMNSIPRaEcsk"
+             },
+			           "method":"POST",
+			           "requestUrl":"/rest/tabletwoconfigs/",
+			           "recordInfo":{
+                        "tableRecordNo":1,
+                        "tableName":"TableTwoConfig"
+             },
+			           "userName":"AppAdmin",
+			           "fileAttachmentInfo":[ 
+             ],
+			           "lookupConfiguration":{
+             }		
+	       },
+	"outputData": [{
+                        "tribber":"M0lWRGtH5DLiZtT7ieIVL9QxQ",
+                        "embed":"FJOmwagSZTJHLVMNSIPRaEcsk"
+             }
+	       ],
+	"responseCode": 200,
+	"verifyUsingService":false,
+	"tearDown":{
+			     "TableTwoConfig":{
+                        "method":"DELETE",
+                        "requestUrl":"/rest/tabletwoconfigs/{ids}",
+                        "clearRecordsAfterTest":true,
+                        "userName":"AppAdmin"
+             }		
+	       }
+}
