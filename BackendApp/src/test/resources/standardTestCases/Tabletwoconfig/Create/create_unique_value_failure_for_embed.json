@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "tribber":"cutTJHYN3FoIXR5SP0ky6TRzo",
-                        "embed":"A89A6vMfETAaBa3X9Ry9KAh6j"
+                        "tribber":"W1N8Sf0NGOIoDiOob2IVIAZ2k",
+                        "embed":"4xElGubjyeUFY8cjUMQqcGm5f"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tabletwoconfigs/",
@@ -26,8 +26,8 @@
 	"requestDetails":{
 			           "serviceType":"CREATE",
 			           "inputData":{
-                        "tribber":"zafeVwFVEjsvVf9WighI7YhL3",
-                        "embed":"A89A6vMfETAaBa3X9Ry9KAh6j"
+                        "tribber":"kHRCmHcpgdmZk3O30mc7wvJZT",
+                        "embed":"4xElGubjyeUFY8cjUMQqcGm5f"
              },
 			           "method":"POST",
 			           "requestUrl":"/rest/tabletwoconfigs/",

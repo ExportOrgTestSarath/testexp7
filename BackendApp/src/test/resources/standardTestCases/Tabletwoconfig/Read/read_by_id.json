@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "tribber":"XgzYRVhIhdVzPZkTwzZavS5CK",
-                        "embed":"0NSRlbDuKwfod1oGO8dguDEO8"
+                        "tribber":"xpzDcensPtr6tV99opZDefLSo",
+                        "embed":"bqKBs1UWSTIvXb65JKFjVpZYt"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tabletwoconfigs/",
@@ -34,8 +34,8 @@
 			           "userName":"AppAdmin"		
 	       },
 	"outputData": [{
-                        "tribber":"XgzYRVhIhdVzPZkTwzZavS5CK",
-                        "embed":"0NSRlbDuKwfod1oGO8dguDEO8"
+                        "tribber":"xpzDcensPtr6tV99opZDefLSo",
+                        "embed":"bqKBs1UWSTIvXb65JKFjVpZYt"
              }
 	       ],
 	"responseCode": 200,

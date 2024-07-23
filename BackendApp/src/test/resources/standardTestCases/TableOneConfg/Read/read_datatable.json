@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "value2":"qPrSgoPT1un6hbOERlvY7S5t8",
-                        "value1":"8xWnvefMGiJW1DTFaHILOZn8O"
+                        "value2":"36XrHjMqFu3cV09v6OxLszX4s",
+                        "value1":"rbCnEd8B2o42A35qjcHpBJA3k"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -24,8 +24,8 @@
 		     },
 			   {
 				            "inputData":{
-                        "value2":"5JatDmjuO62vcBvU1utyU0jZm",
-                        "value1":"pEcA4LoBfDGJEir2XemznoSf0"
+                        "value2":"TqIXjvDI2qTshmGHlmjo2hnKX",
+                        "value1":"dtSnMjdPq3g0EL12WSWTVp3Kw"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -41,8 +41,8 @@
 		     },
 			   {
 				            "inputData":{
-                        "value2":"n8P2SN1I365IGvVmauUEHwoI1",
-                        "value1":"CDTTYgsfWTL4YJ1QcERGbo9fl"
+                        "value2":"40fN0J3GrqvhSrUnPQ5ecf0uK",
+                        "value1":"cX5lY7KIXSQmd3gUL1LrNRhTv"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -58,8 +58,8 @@
 		     },
 			   {
 				            "inputData":{
-                        "value2":"2juko4oTmyPRlUvEMlxIoH92q",
-                        "value1":"TKE2VgQo2TRFRi2QG5VlzNjhf"
+                        "value2":"CYK7VmrJWScQoUrhgd4ygKdEQ",
+                        "value1":"NdEMdU5mLBmZujXVIiQhAnSLl"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -75,8 +75,8 @@
 		     },
 			   {
 				            "inputData":{
-                        "value2":"uQSlwBo5LbWdu3a3FbFAZws5c",
-                        "value1":"39vNaNSL6yP4OJyPjkwqFpLOr"
+                        "value2":"HEEthvu29mkvabfB7GRjOkXQb",
+                        "value1":"7giWhTp6RWxs4isSfbegMAMTz"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -121,20 +121,20 @@
 			           "userName":"AppAdmin"		
 	       },
 	"outputData": [{
-                        "value2":"qPrSgoPT1un6hbOERlvY7S5t8",
-                        "value1":"8xWnvefMGiJW1DTFaHILOZn8O"
+                        "value2":"36XrHjMqFu3cV09v6OxLszX4s",
+                        "value1":"rbCnEd8B2o42A35qjcHpBJA3k"
              },{
-                        "value2":"5JatDmjuO62vcBvU1utyU0jZm",
-                        "value1":"pEcA4LoBfDGJEir2XemznoSf0"
+                        "value2":"TqIXjvDI2qTshmGHlmjo2hnKX",
+                        "value1":"dtSnMjdPq3g0EL12WSWTVp3Kw"
              },{
-                        "value2":"n8P2SN1I365IGvVmauUEHwoI1",
-                        "value1":"CDTTYgsfWTL4YJ1QcERGbo9fl"
+                        "value2":"40fN0J3GrqvhSrUnPQ5ecf0uK",
+                        "value1":"cX5lY7KIXSQmd3gUL1LrNRhTv"
              },{
-                        "value2":"2juko4oTmyPRlUvEMlxIoH92q",
-                        "value1":"TKE2VgQo2TRFRi2QG5VlzNjhf"
+                        "value2":"CYK7VmrJWScQoUrhgd4ygKdEQ",
+                        "value1":"NdEMdU5mLBmZujXVIiQhAnSLl"
              },{
-                        "value2":"uQSlwBo5LbWdu3a3FbFAZws5c",
-                        "value1":"39vNaNSL6yP4OJyPjkwqFpLOr"
+                        "value2":"HEEthvu29mkvabfB7GRjOkXQb",
+                        "value1":"7giWhTp6RWxs4isSfbegMAMTz"
              }
 	       ],
 	"responseCode": 200,

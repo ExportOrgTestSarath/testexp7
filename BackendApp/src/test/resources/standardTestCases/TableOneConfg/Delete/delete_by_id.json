@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "value2":"rq76gKcUyCXCV0lzrZi1WBug0",
-                        "value1":"32pO43A5YyOf5JFD72sXwA3Bw"
+                        "value2":"DLvuFbW4i9bURbQ5mwDpSIuSU",
+                        "value1":"1Ey1w6LgFBwurVD05DMNalpBz"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",

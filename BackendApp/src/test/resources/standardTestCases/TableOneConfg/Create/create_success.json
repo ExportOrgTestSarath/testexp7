@@ -8,8 +8,8 @@
 	"requestDetails":{
 			           "serviceType":"CREATE",
 			           "inputData":{
-                        "value2":"4osTTqslZFndjcVegMZUZ4Kmm",
-                        "value1":"JWsthW5sMvaRPwKFhukuerg64"
+                        "value2":"Dz9SqPK5Y8bryqnU9OBQ6iza2",
+                        "value1":"6m1kpfamKgdcj49thvaRCT78B"
              },
 			           "method":"POST",
 			           "requestUrl":"/rest/tableoneconfgs/",
@@ -24,8 +24,8 @@
              }		
 	       },
 	"outputData": [{
-                        "value2":"4osTTqslZFndjcVegMZUZ4Kmm",
-                        "value1":"JWsthW5sMvaRPwKFhukuerg64"
+                        "value2":"Dz9SqPK5Y8bryqnU9OBQ6iza2",
+                        "value1":"6m1kpfamKgdcj49thvaRCT78B"
              }
 	       ],
 	"responseCode": 200,

@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "value2":"fMINDn8zWdU7skjYUkei6U1gJ",
-                        "value1":"HBTam6cAocNVnL6yOmXnV0ZNk"
+                        "value2":"Yu0rFPYEF4shUqNmyvsEjpScP",
+                        "value1":"1BKYhpqryzU03UaWLMCpqQdi7"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -34,8 +34,8 @@
 			           "userName":"AppAdmin"		
 	       },
 	"outputData": [{
-                        "value2":"fMINDn8zWdU7skjYUkei6U1gJ",
-                        "value1":"HBTam6cAocNVnL6yOmXnV0ZNk"
+                        "value2":"Yu0rFPYEF4shUqNmyvsEjpScP",
+                        "value1":"1BKYhpqryzU03UaWLMCpqQdi7"
              }
 	       ],
 	"responseCode": 200,

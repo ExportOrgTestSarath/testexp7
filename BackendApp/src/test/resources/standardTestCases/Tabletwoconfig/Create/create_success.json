@@ -8,8 +8,8 @@
 	"requestDetails":{
 			           "serviceType":"CREATE",
 			           "inputData":{
-                        "tribber":"M0lWRGtH5DLiZtT7ieIVL9QxQ",
-                        "embed":"FJOmwagSZTJHLVMNSIPRaEcsk"
+                        "tribber":"2EIo6nV3z1Axme3k00O14Y54N",
+                        "embed":"cVogTDxFTOLYYpGBPI2sew79Z"
              },
 			           "method":"POST",
 			           "requestUrl":"/rest/tabletwoconfigs/",
@@ -24,8 +24,8 @@
              }		
 	       },
 	"outputData": [{
-                        "tribber":"M0lWRGtH5DLiZtT7ieIVL9QxQ",
-                        "embed":"FJOmwagSZTJHLVMNSIPRaEcsk"
+                        "tribber":"2EIo6nV3z1Axme3k00O14Y54N",
+                        "embed":"cVogTDxFTOLYYpGBPI2sew79Z"
              }
 	       ],
 	"responseCode": 200,

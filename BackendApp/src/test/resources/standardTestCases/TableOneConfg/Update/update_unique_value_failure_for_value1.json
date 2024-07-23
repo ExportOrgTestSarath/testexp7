@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "value2":"JOav93943lMgXGw9v28fTtqIh",
-                        "value1":"J3qxuedLP4JR9olZ9vTY4YBdN"
+                        "value2":"yQxsF68ivHdTc29vgmshtFKde",
+                        "value1":"nQRYLdEP73z56MgptNyCZJpcK"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -24,8 +24,8 @@
 		     },
 			   {
 				            "inputData":{
-                        "value2":"cha463V2e0Q2O2zoYWC5b8IdC",
-                        "value1":"dADnegBYBKIEnv3VNdFB8EeWN"
+                        "value2":"WpykIR4PjcWMZBncbeBkeHnEZ",
+                        "value1":"b9ogPr2H9IX4L9pQ5DiXLItTi"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tableoneconfgs/",
@@ -43,8 +43,8 @@
 	"requestDetails":{
 			           "serviceType":"UPDATE",
 			           "inputData":{
-                        "value2":"JOav93943lMgXGw9v28fTtqIh",
-                        "value1":"dADnegBYBKIEnv3VNdFB8EeWN"
+                        "value2":"yQxsF68ivHdTc29vgmshtFKde",
+                        "value1":"b9ogPr2H9IX4L9pQ5DiXLItTi"
              },
 			           "method":"PUT",
 			           "requestUrl":"/rest/tableoneconfgs/",

@@ -7,8 +7,8 @@
 			   {
 				            "serviceType":"CREATE",
 				            "inputData":{
-                        "tribber":"M1XSzh9IS0DRTRH6l8UpP73HY",
-                        "embed":"EzaFvrmtkqpXEPehKVezKZc5R"
+                        "tribber":"6XEpRZMEOXgyeQRS53WDutIrB",
+                        "embed":"2EsKQ9srAv5L61LMCAtP4R4ME"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tabletwoconfigs/",
@@ -24,8 +24,8 @@
 		     },
 			   {
 				            "inputData":{
-                        "tribber":"RAaVs7GTkmm586n5FttVL669e",
-                        "embed":"aUirZhxppXcKbRphCd8BqF7pw"
+                        "tribber":"IGsZHj8lsZgupkhp1P5Ovv2HU",
+                        "embed":"ny3klQll0p981Ik6ZM3jnKitV"
              },
 				            "method":"POST",
 				            "requestUrl":"/rest/tabletwoconfigs/",
@@ -43,8 +43,8 @@
 	"requestDetails":{
 			           "serviceType":"UPDATE",
 			           "inputData":{
-                        "tribber":"M1XSzh9IS0DRTRH6l8UpP73HY",
-                        "embed":"aUirZhxppXcKbRphCd8BqF7pw"
+                        "tribber":"6XEpRZMEOXgyeQRS53WDutIrB",
+                        "embed":"ny3klQll0p981Ik6ZM3jnKitV"
              },
 			           "method":"PUT",
 			           "requestUrl":"/rest/tabletwoconfigs/",
